@@ -4,10 +4,10 @@ create_acc = function()
 	print "welcome user to skynetOS."
 	
 	user = input("enter username: ")
-	player_data.username = player_data.username + user
+	player_data.username = user
 
 	userpass = input("enter password: ")
-	player_data.password = player_data.password + userpass
+	player_data.password = userpass
 
 	print "congratulations! your account is all set up."
 	wait(3)
